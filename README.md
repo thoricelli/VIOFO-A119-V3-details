@@ -19,7 +19,7 @@ This SoC has 2 cpu's.
 The first CPU (CPU1) is used for handling the image sensor (see below what its tasks are). <br>
 The second CPU (CPU2) is used for handling WIFI (not included), saving to the SD card, handling the UI, etc..
 
-# Memory map
+# Partitions in memory
 The memory map can be changed by the configuration specified in the firmware file.<br>
 This configuration is used by U-BOOT to initialize and boot into the OS.
 For more details see <a href="https://web.archive.org/web/20230216140514/https://www.twblogs.net/a/5e91e7c8bd9eee34b83e9da8">here</a>. (Chinese)
