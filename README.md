@@ -27,7 +27,7 @@ For more details see <a href="https://web.archive.org/web/20230216140514/https:/
 | Name | Address | Size | Description |
 | --- | --- | --- | --- |
 | IPC | 0x00002000 | 0x000FF000 | Shared memory between the two CPU cores. |
-| DSP1 | 0x00101000 | 0x000FF000 | SDRAM used to load all below. |
+| DSP1 | 0x00101000 | 0x000FF000 | SDRAM? |
 | ECOS | 0x00200000 | 0x00200000 | Ecos is used for threading, exchanging messages between cores, etc... |
 | UITRON | 0x00400000 | 0x0FC00000 | After booting is completed, CPU1 and CPU2 boot into UITRON, the main OS. |
 | UBOOT | 0x07900000 | 0x00700000 | CPU2 uses UBOOT to check for firmware upgrades on the SD card or ethernet, copies and prepares the OS |
