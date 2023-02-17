@@ -10,7 +10,7 @@ The firmware/memory/coding is a result of the Novatek NT96670 SDK. But the SDK i
 | CMOS | <a href="https://www.phase1vision.com/userfiles/product_files/imx335lln_lqn_flyer.pdf">Sony Exmor IMX335</a> | N/A |
 | Flash | <a href="https://www.macronix.com/Lists/Datasheet/Attachments/8660/MX25L6436F,%203V,%2064Mb,%20v1.2.pdf">Macronix MX25L6436F</a> | 64 MB |
 | RAM | <a href="https://download.semiconductor.samsung.com/resources/data-sheet/DS_K4B2G1646F_BY_M_Rev1_0-1.pdf">Samsung K4B2G1646F-BYMA</a> | 2 GB |
-| G-Sensor | <a href="https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma253-ds000.pdf">BMA253</a> | N/A |
+| G-Sensor | DA380 | N/A |
 | GPS-module | <a href="http://www.gotop-zzu.com/images/u/1593493826507.pdf">GAM-2525-MTR</a> + <a href="https://videoregforum.ru/threads/datakam-g5.946/page-349">Firmware</a> | N/A |
 
 The NOVATEK NT96670, does not have publicly accessable datasheets. <br>
