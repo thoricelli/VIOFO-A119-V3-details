@@ -16,8 +16,8 @@ The firmware/memory/coding is a result of the Novatek NT96670 SDK. But the SDK i
 The NOVATEK NT96670, does not have publicly accessable datasheets. <br>
 This SoC has 2 cpu's.
 
-The first core (CPU1) is used for handling the image sensor (see below what its tasks are). <br>
-The second core (CPU2) is used for handling WIFI (not included), saving to the SD card, handling the UI, etc..
+The first CPU (CPU1) is used for handling the image sensor (see below what its tasks are). <br>
+The second CPU (CPU2) is used for handling WIFI (not included), saving to the SD card, handling the UI, etc..
 
 # Memory map
 The memory map can be changed by the configuration specified in the firmware file.<br>
@@ -71,7 +71,7 @@ The header follows a <a href="https://github.com/MariadeAnton/bcl">BCL header</a
 | U-Boot | YES |
 | Uenv (optional) | NO |
 | Linux kernel (optional) | NO |
-| ROOTFS (eCos) | NO |
+| ROOTFS (eCos) | YES |
 | PStore (optional) | NO |
 | DSP (optional) | NO? |
 | FAT (optional) | NO |
