@@ -62,6 +62,8 @@ The header follows a <a href="https://github.com/MariadeAnton/bcl">BCL header</a
 | +0x8 | 4 | Original size in bytes |
 | +0x10 | 4 | Compressed size in bytes |
 
+For extracting partitions from the firmware file see <a href="https://github.com/EgorKin/Novatek-FW-info">here</a>.
+
 # Flash partitions
 | Name | Used by VIOFO A119V3?)
 | --- | --- |
