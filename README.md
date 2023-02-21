@@ -31,7 +31,7 @@ For more details see <a href="https://web.archive.org/web/20230216140514/https:/
 | ECOS | 0x00200000 | 0x00200000 | Ecos is used for threading, exchanging messages between cores, etc... |
 | UITRON | 0x00400000 | 0x0FC00000 | After booting is completed, CPU1 and CPU2 boot into UITRON, the main OS. |
 | UBOOT | 0x07900000 | 0x00700000 | CPU2 uses UBOOT to check for firmware upgrades on the SD card or ethernet, copies and prepares the OS |
-| LOADER | ??? | 0x0000A000 | CPU1 uses this LOADER to initialize basic I/O and DRAM |
+| LOADER | 0xC07C0000 | 0x0000A000 | CPU1 uses this LOADER to initialize basic I/O and DRAM |
 
 <b>!! U-BOOT and the LOADER are overwritten and used as memory for UITRON after the boot is completed. !!</b>
 
@@ -49,7 +49,7 @@ This program will pack the different partitions described here:
 | 6 | ROOTFS (eCos in case of the A119V3) | rootfs.ubifs.bin (eCos.bin?) | 0x53F178 | 0x2ADB8 | YES | 
 | 7 | PSTORE | ??? | N/A | N/A | NO |
 
-You can the loader for the A119V3 <a href="https://videoreg.forum2.net/viewtopic.php?id=92&p=3">here</a>. (Russian)<br>
+You can download the loader for the A119V3 <a href="https://videoreg.forum2.net/viewtopic.php?id=92&p=3">here</a>. (Russian)<br>
 And you can find the official firmware for the A119V3 <a href="https://viofo.com/content/41-viofo-a119-v3-dash-cam-support/">here</a>.
 
 ## BCL1 header
