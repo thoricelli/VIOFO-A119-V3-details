@@ -17,7 +17,7 @@ The NOVATEK NT96670, does not have publicly accessable datasheets. <br>
 This SoC has 3 cpu's.
 
 The first CPU (CPU1) is used for handling the image sensor (see below what its tasks are). <br>
-The second CPU (CPU2) is used for handling WIFI (not included), saving to the SD card, handling the UI, etc..
+The second CPU (CPU2) is used for handling WIFI (not included), saving to the SD card, handling the UI, etc.. <br>
 And lastly, a DSP CPU, which remains unused for the V3.
 
 # Partitions in memory
