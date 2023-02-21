@@ -14,10 +14,11 @@ The firmware/memory/coding is a result of the Novatek NT96670 SDK. But the SDK i
 | GPS-module | <a href="http://www.gotop-zzu.com/images/u/1593493826507.pdf">GAM-2525-MTR</a> + <a href="https://videoregforum.ru/threads/datakam-g5.946/page-349">Firmware</a> | N/A |
 
 The NOVATEK NT96670, does not have publicly accessable datasheets. <br>
-This SoC has 2 cpu's.
+This SoC has 3 cpu's.
 
 The first CPU (CPU1) is used for handling the image sensor (see below what its tasks are). <br>
 The second CPU (CPU2) is used for handling WIFI (not included), saving to the SD card, handling the UI, etc..
+And lastly, a DSP CPU, which remains unused for the V3.
 
 # Partitions in memory
 The memory map can be changed by the configuration specified in the firmware file.<br>
@@ -27,7 +28,7 @@ For more details see <a href="https://web.archive.org/web/20230216140514/https:/
 | Name | Address | Size | Description |
 | --- | --- | --- | --- |
 | IPC | 0x00002000 | 0x000FF000 | Shared memory between the two CPU cores. |
-| DSP1 | 0x00101000 | 0x000FF000 | SDRAM? |
+| DSP1 | 0x00101000 | 0x000FF000 | NOT USED |
 | ECOS | 0x00200000 | 0x00200000 | Ecos is used for threading, exchanging messages between cores, etc... |
 | UITRON | 0x00400000 | 0x0FC00000 | After booting is completed, CPU1 and CPU2 boot into UITRON, the main OS. |
 | UBOOT | 0x07900000 | 0x00700000 | CPU2 uses UBOOT to check for firmware upgrades on the SD card or ethernet, copies and prepares the OS |
