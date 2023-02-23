@@ -60,8 +60,8 @@ The header follows a <a href="https://github.com/MariadeAnton/bcl">BCL header</a
 | --- | --- | --- |
 | +0x0 | 4 | Magic number, always BCL1 |
 | +0x4 | 4 | (Last byte) Compression type, 0x0B = LZMA |
-| +0x8 | 4 | Original size in bytes |
-| +0x10 | 4 | Compressed size in bytes |
+| +0x8 | 4 | Original size in bytes (Big endian) |
+| +0x10 | 4 | Compressed size in bytes (Big endian) |
 
 For extracting partitions from the firmware file see <a href="https://github.com/EgorKin/Novatek-FW-info">here</a>.
 
