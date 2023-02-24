@@ -47,7 +47,7 @@ This program will pack the different partitions described here:
 | 3 | UBOOT | u-boot.bin | 0x4FD610 | 0x41B68 | YES |
 | 4 | UENV | ??? | N/A | N/A | NO |
 | 5 | LINUX | uImage.bin | N/A | N/A | NO |
-| 6 | ROOTFS (eCos in case of the A119V3) | rootfs.ubifs.bin (eCos.bin?) | 0x53F178 | 0x2ADB8 | YES | 
+| 6 | ROOTFS (eCos in case of the A119V3) | rootfs.ubifs.bin (FW96670T.bin) | 0x53F178 | 0x2ADB8 | YES | 
 | 7 | PSTORE | ??? | N/A | N/A | NO |
 
 You can download the loader for the A119V3 <a href="https://videoreg.forum2.net/viewtopic.php?id=92&p=3">here</a>. (Russian)<br>
