@@ -54,7 +54,7 @@ You can download the loader for the A119V3 <a href="https://videoreg.forum2.net/
 And you can find the official firmware for the A119V3 <a href="https://viofo.com/content/41-viofo-a119-v3-dash-cam-support/">here</a>.
 
 ## BCL1 header
-The eCos and uITRON partitions have been compressed using LZMA compression. <br>
+The eCos and uITRON partitions have been compressed using LZMA compression. (Please note that the LZMA size header is broken, use the BCL1 header instead.) <br>
 The header follows a <a href="https://github.com/MariadeAnton/bcl">BCL header</a> (Basic Compression Library)
 | Offset | Size | Name |
 | --- | --- | --- |
