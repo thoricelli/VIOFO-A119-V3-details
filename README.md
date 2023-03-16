@@ -80,6 +80,18 @@ For extracting partitions from the firmware file see <a href="https://github.com
 | DSP (optional) | NO? |
 | FAT (optional) | NO |
 
+# uITron reverse engineering
+I've uploaded a file for use with ghidra's function ID. <br>
+This includes the GX functions used by the dashcam. <br>
+
+There is an application in the works that will be able to:<br>
+- Extract partitions with both LZ77 and LZMA compression<br>
+- Edit/view UI, fonts, images, translation tables, sounds, etc.<br>
+
+Also, I'm going to be working on a loader that can load custom applications that are put on the SD card. <br>
+But this will require a bit more research.<br>
+Stay tuned!
+
 Resources used:
 <br>
 <a href="https://web.archive.org/web/20230216140514/https://www.twblogs.net/a/5e91e7c8bd9eee34b83e9da8">https://www.twblogs.net/a/5e91e7c8bd9eee34b83e9da8</a>
